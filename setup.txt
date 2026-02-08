@@ -1,0 +1,28 @@
+old repo link deprecated: https://github.com/oarriaga/face_classification
+new repo link : https://github.com/oarriaga/paz
+
+kaggle dataset:
+https://www.kaggle.com/datasets/msambare/fer2013  (for images)
+https://www.kaggle.com/datasets/deadskull7/fer2013 ( for csv data) we used this
+
+install python 3.10.6
+create env
+activate it
+python.exe -m pip install --upgrade pip (if needed)
+
+
+pip install numpy
+pip install opencv-python
+pip install --default-timeout=1000 tensorflow
+pip install pypaz
+pip install tensorflow==2.15.0
+pip install pandas,
+pip install matlplotlib
+pip install numpy
+pip install scipy
+
+
+or 
+pip install -r requirements.txt
+
+go to paz/examples/face_classification/train_simple.py should run
